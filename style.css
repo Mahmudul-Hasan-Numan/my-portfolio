@@ -1,0 +1,196 @@
+body{
+    margin: 3%;
+    background-color: honeydew;
+    /* background-image: linear-gradient(lightgreen, lightblue); */
+    margin-bottom: -5%;
+}
+h1 {
+     font-size: 60px;
+     margin: -10px;
+     font-family: 'Playfair Display', serif;
+     color:darkgreen
+}
+h2{
+    font-size: 40px;
+    margin: -10px;
+}
+.portfolio-header{
+    text-align: center;
+}
+.portfolio-header a{
+    text-decoration: none;
+    padding: 5px;
+}
+
+.name-image img {
+   width: 20%; 
+   border-radius: 10px;
+}
+.address{
+ font-size: 20px;
+ margin: -3px;
+ padding: 5px;
+}
+.basics-info{
+    display: flex;
+    padding: 10px;
+   
+}
+.basics-info-details{
+    margin: 5%;
+    border-left: 2px solid lightcoral;
+    padding: 5px;
+}
+.about, .professsion{
+    text-align: center;
+    color: rgba(253, 65, 18, 0.795);
+    background-color: deepskyblue;
+}
+.professsion{
+    color: green;
+}
+.details{
+   justify-items: center;
+}
+
+hr{
+   border: 1px solid gray;
+}
+.dream, .training-heading, .curricular-heading{
+    background-color: bisque;
+    width: 90%;
+   text-align: center;
+   color: brown;
+}
+.dream-area{
+    display: flex;
+    border-right: 2px solid mediumspringgreen;
+}
+.dream-area img{
+    width: 150%;
+    border-radius: 10px;
+}
+.dream-heading{
+    font-size: 30px;
+    text-align: center;
+}
+.dream-area-details{
+    padding: 0%;
+   margin-top: 10%;
+   margin-left: 15%;
+}
+
+.education, .course-work, .skills, .training-activities,.experiences-heading{
+    color: forestgreen;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom:-10px;
+    margin-top: -5px;
+}
+.degree{
+    font-size: 20px;
+}
+.degree-name{
+    font-size: 20px;
+    font-weight: bolder;
+   
+}
+.dot{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+.skills-details{
+    display: flex;
+}
+.skills-details img{
+    width: 100%;
+    border-radius: 10px;
+}
+.skills-info{
+    border: 2px solid gray;
+    border-left: 0;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+.skills-name{
+    font-size: 20px;
+    font-weight: bold;
+}
+.training-activities{
+    margin-top: 20px;
+}
+.curriculam{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+.training{
+    border-right: 2px solid brown;
+    border-radius: 5px;
+    padding: 10px;
+}
+.xtra-activities{
+    border-left: 2px solid brown;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.experiences-heading{
+    font-size: 30px;
+    margin-top: 10px;
+}
+.experience-area{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    background-image: url(image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.duration{
+    color: lightcoral;
+}
+
+#intern{
+    border-left: 4px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+#web-devloper{
+    border-left: 4px solid;
+    border-image: linear-gradient(orange, green);
+    border-image-slice: 4;
+}
+.experience-heading{
+    color:darkgoldenrod;
+    font-size: 35px;
+}
+.experience-item{
+    margin-top: 20px;
+    padding: 30px;
+    margin-left: 10px;
+    box-shadow: 10px 10px 30px gray;
+}
+.experience a {
+    text-decoration: none;
+    background-color: aquamarine;
+    justify-content: center;
+}
+#link-button{
+    text-align: center;
+    margin: 20px;
+}
+#link-button a{
+    text-decoration: none;
+    background-image: linear-gradient(green, orange);
+    padding: 10px;
+    border-radius: 5px;
+}
+#footer{
+    font-size: 15px;
+    color: brown;
+    text-align: center;
+}
