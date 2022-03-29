@@ -201,10 +201,11 @@ margin-left: 40px;
     margin-left: 10px;
     box-shadow: 10px 10px 30px gray;
 }
-.experience a {
+.experience a  , .projects-list a {
     text-decoration: none;
     background-color: aquamarine;
     justify-content: center;
+    padding: 3px;
 }
 #link-button a{
     text-decoration: none;
@@ -212,10 +213,39 @@ margin-left: 40px;
     padding: 10px;
     border-radius: 5px;
 }
+
+/* 
+Website Development Projects
+  */
+  .projects{
+    margin-top: 40px;
+    box-shadow: 2px 2xp 5px;
+   justify-content: center;
+}
+.projects-title{
+    color: green;
+    text-align: center;
+    font-size: 35px;
+}
+.projects-list{
+    display: flex;
+    flex-direction: column;
+   
+}
+/* 
+.projects-list a{
+    text-decoration: none;
+} */
+
+/*------------------
+ FOOTER 
+ --------------------- */
+
 #footer{
     margin-bottom: -20px;
     font-size: 15px;
-    color: brown;
+    color: wheat;
     text-align: center;
-    background-color: whitesmoke;
+    background-color: darkred;
 }
+
