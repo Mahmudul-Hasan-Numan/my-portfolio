@@ -1,173 +1,211 @@
-body{
+body {
     background-color: honeydew;
 }
-nav{
+
+nav {
     background-color: rgba(0, 0, 0, 0.493);
     width: 100%;
     height: 30px;
     text-align: center;
-   position:fixed;
-   margin-top: -4%;
+    position: fixed;
+    margin-top: -4%;
 }
-nav a{
+
+nav a {
     text-decoration: none;
     font-size: 25px;
     margin-left: 20px;
     padding: 5px;
-   color: blanchedalmond;
-   border-radius: 5px;
-   background-color: rgba(222, 184, 135, 0.109);
+    color: blanchedalmond;
+    border-radius: 5px;
+    background-color: rgba(222, 184, 135, 0.109);
 }
 
-nav a:hover{
+nav a:hover {
     box-shadow: 0 0 10px;
     border: 2px solid khaki;
     color: white;
-   background-color: green;
+    background-color: green;
     cursor: pointer;
 }
+
 h1 {
-     font-size: 60px;
-     margin: -10px;
-     font-family: 'Playfair Display', serif;
-     color:darkgreen
+    font-size: 60px;
+    margin: -10px;
+    font-family: 'Playfair Display', serif;
+    color: darkgreen
 }
-h2{
+
+h2 {
     font-size: 40px;
     margin: -10px;
 }
-.portfolio-header{
+
+.portfolio-header {
     margin-top: 5%;
     text-align: center;
 }
-.portfolio-header a{
+
+.portfolio-header a {
     text-decoration: none;
     padding: 5px;
 }
 
 .name-image img {
-   width: 20%; 
-   border-radius: 10px;
+    width: 20%;
+    border-radius: 10px;
 }
-.address{
- font-size: 20px;
- margin: -3px;
- padding: 5px;
+
+.address {
+    font-size: 20px;
+    margin: -3px;
+    padding: 5px;
 }
-.basics-info{
+
+.basics-info {
     display: flex;
     padding: 10px;
-   
+
 }
-.basics-info-details{
+
+.basics-info-details {
     margin: 5%;
     border-left: 2px solid lightcoral;
     padding: 5px;
 }
-.about, .professsion{
+
+.about,
+.professsion {
     text-align: center;
     color: rgba(253, 65, 18, 0.795);
     background-color: deepskyblue;
 }
-.professsion{
+
+.professsion {
     color: green;
 }
-.details{
-   justify-items: center;
+
+.details {
+    justify-items: center;
 }
 
-hr{
-   border: 1px solid gray;
+hr {
+    border: 1px solid gray;
 }
-.dream, .training-heading, .curricular-heading{
+
+.dream,
+.training-heading,
+.curricular-heading {
     background-color: bisque;
     width: 90%;
-   text-align: center;
-   color: brown;
+    text-align: center;
+    color: brown;
 }
-.dream-area{
+
+.dream-area {
     display: flex;
     border-right: 2px solid mediumspringgreen;
 }
-.dream-area img{
+
+.dream-area img {
+    padding-top: 90px;
     width: 150%;
     border-radius: 10px;
 }
-.dream-heading{
+
+.dream-heading {
     font-size: 30px;
     text-align: center;
 }
-.dream-area-details{
+
+.dream-area-details {
     padding: 0%;
-   margin-top: 10%;
-   margin-left: 15%;
+    margin-top: 10%;
+    margin-left: 15%;
 }
 
-.education, .course-work, .skills, .training-activities,.experiences-heading{
+.education,
+.course-work,
+.skills,
+.training-activities,
+.experiences-heading {
     color: forestgreen;
     text-align: center;
     font-size: 40px;
     margin: 3%;
-    margin-bottom:-10px;
+    margin-bottom: -10px;
     margin-top: -5px;
 }
-.degree{
+
+.degree {
     font-size: 20px;
 }
-.degree-name{
+
+.degree-name {
     font-size: 20px;
     font-weight: bolder;
-   
+
 }
-.graduation{
-margin-left: 40px;
+
+.graduation {
+    margin-left: 40px;
 }
-.dot{
+
+.dot {
     height: 30px;
     width: 30px;
     border-radius: 50%;
 }
-.skills-details{
+
+.skills-details {
     display: flex;
 }
-.skills-details img{
+
+.skills-details img {
     width: 100%;
     border-radius: 10px;
 }
-.skills-info{
+
+.skills-info {
     border: 2px solid gray;
     border-left: 0;
     margin-left: 20px;
     border-radius: 10px;
 }
-.skills-name{
+
+.skills-name {
     font-size: 20px;
     font-weight: bold;
 }
-.training-activities{
+
+.training-activities {
     margin-top: 20px;
 }
-.curriculam{
+
+.curriculam {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 10px;
 }
-.training{
+
+.training {
     border-right: 2px solid brown;
     border-radius: 5px;
     padding: 10px;
 }
-.xtra-activities{
+
+.xtra-activities {
     border-left: 2px solid brown;
     border-radius: 5px;
     padding: 10px;
 }
 
-.experiences-heading{
+.experiences-heading {
     font-size: 30px;
     margin-top: 10px;
 }
-.experience-area{
+
+.experience-area {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 20px;
@@ -176,38 +214,43 @@ margin-left: 40px;
     background-position: left;
 }
 
-.duration{
+.duration {
     color: lightcoral;
 }
 
-#intern{
+#intern {
     border-left: 4px solid;
     border-image: linear-gradient(blue, cyan);
     border-image-slice: 1;
 }
 
-#web-devloper{
+#web-devloper {
     border-left: 4px solid;
     border-image: linear-gradient(orange, green);
     border-image-slice: 4;
 }
-.experience-heading{
-    color:darkgoldenrod;
+
+.experience-heading {
+    color: darkgoldenrod;
     font-size: 35px;
 }
-.experience-item{
+
+.experience-item {
     margin-top: 20px;
     padding: 30px;
     margin-left: 10px;
     box-shadow: 10px 10px 30px gray;
 }
-.experience a  , .projects-list a {
+
+.experience a,
+.projects-list a {
     text-decoration: none;
     background-color: aquamarine;
     justify-content: center;
     padding: 3px;
 }
-#link-button a{
+
+#link-button a {
     text-decoration: none;
     background-image: linear-gradient(green, orange);
     padding: 10px;
@@ -217,21 +260,24 @@ margin-left: 40px;
 /* 
 Website Development Projects
   */
-  .projects{
+.projects {
     margin-top: 40px;
     box-shadow: 2px 2xp 5px;
-   justify-content: center;
+    justify-content: center;
 }
-.projects-title{
+
+.projects-title {
     color: green;
     text-align: center;
     font-size: 35px;
 }
-.projects-list{
+
+.projects-list {
     display: flex;
     flex-direction: column;
-   
+
 }
+
 /* 
 .projects-list a{
     text-decoration: none;
@@ -241,11 +287,10 @@ Website Development Projects
  FOOTER 
  --------------------- */
 
-#footer{
+#footer {
     margin-bottom: -20px;
     font-size: 15px;
     color: wheat;
     text-align: center;
     background-color: darkred;
 }
-
